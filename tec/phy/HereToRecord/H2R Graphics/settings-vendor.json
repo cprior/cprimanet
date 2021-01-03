@@ -1,0 +1,126 @@
+{
+    "lowerThirds": [
+        {
+            "name": "Hello",
+            "title": "World",
+            "position": "left"
+        },
+        {
+            "name": "",
+            "title": "",
+            "position": "left"
+        }
+    ],
+    "ticker": {
+        "tickerTitleTextColour": "#FFFFFF",
+        "tickerLeadTextColour": "#FFFFFF",
+        "tickerTextColour": "#000000",
+        "tickerHighlightColour": "#000000",
+        "tickerLeadColour": "#000000",
+        "tickerBackgroundColour": "#FFFFFF",
+        "tickerTitle": "Hello World",
+        "tickerItems": [
+            {
+                "lead": "Lead",
+                "text": "Text",
+                "visibility": true
+            }
+        ],
+        "tickerTransition": "fade",
+        "tickerPosition": "15",
+        "tickerSpeed": "2",
+        "tickerSize": "30"
+    },
+    "settings": {
+        "chromaColour": "#00f900",
+        "fontFamily": "Helvetica",
+        "lowerThirdTransition": "fade",
+        "lowerThirdsDuration": "5000",
+        "lowerThirdsPosition": "10",
+        "lowerThirdNameColour": "#000000",
+        "lowerThirdTitleColour": "#000000",
+        "lowerThirdBackgroundColour": "#FFFFFF",
+        "lowerThirdSize": "4",
+        "timerTextColour": "#000000",
+        "timerBackgroundColour": "#FFFFFF",
+        "oscStatus": true,
+        "oscIP": "127.0.0.1",
+        "oscPort": "8181",
+        "timerPosition": "tM",
+        "timerVertical": "50",
+        "timerHorizontal": "50",
+        "timerSize": "5",
+        "timerTransition": "fade",
+        "timerTextBefore": "",
+        "timerType": "downTimeOfDay",
+        "timerValue": "",
+        "logoPosition": "tR",
+        "logoSize": "5",
+        "logoTransition": "fade"
+    },
+    "timer": {
+        "display": {
+            "hours": true,
+            "minutes": true,
+            "seconds": true,
+            "fractions": false
+        }
+    },
+    "logo": "https://heretorecord.com/s/logo.png",
+    "logoAlpha": "https://heretorecord.com/s/logo-alpha.png",
+    "message": {
+        "messageText": "",
+        "messageTextColour": "#000000",
+        "messageBackgroundColour": "#FFFFFF",
+        "messagePosition": "m",
+        "messageVertical": "50",
+        "messageHorizontal": "50",
+        "messageSize": "5",
+        "messageTransition": "fade"
+    },
+    "break": {
+        "id": "",
+        "changeoverDelay": "10000",
+        "backgroundURL": "http://heretorecord.com/s/background.jpg",
+        "transition": "fade",
+        "autoplay": true,
+        "comingUpText": "Coming Up",
+        "startingSoonText": "Starting..."
+    },
+    "chat": {
+        "api_key": "",
+        "channel_name": "",
+        "privacy": false,
+        "privacy_username": "full",
+        "privacy_image": "true",
+        "transition": "wipe",
+        "chatAuthorTextColour": "#FFFFFF",
+        "chatAuthorBackgroundColour": "#333333",
+        "chatMessageTextColour": "#333333",
+        "chatMessageBackgroundColour": "#FFFFFF",
+        "chat_duration": "10000",
+        "chat_position": "5"
+    },
+    "image": {
+        "images": [],
+        "size": 100,
+        "vertical_offset": 50,
+        "horizontal_offset": 50,
+        "transition": "wipe"
+    },
+    "score": {
+        "settings": {},
+        "teams": [],
+        "transition": "fade",
+        "size": 24,
+        "vertical_offset": 10,
+        "horizontal_offset": 50
+    },
+    "analytics": {
+        "analyticsShowModal": true,
+        "analyticsAccepted": false
+    },
+    "themes": [],
+    "themeOnStartup": "",
+    "customCSSInputs": {}
+}

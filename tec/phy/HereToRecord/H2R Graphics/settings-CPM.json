@@ -1,0 +1,595 @@
+{
+    "lowerThirds": [
+        {
+            "name": "Christian Prior-Mamulyan",
+            "title": "Business && IT",
+            "position": "left"
+        }
+    ],
+    "ticker": {
+        "tickerTitleTextColour": "#eee8d5",
+        "tickerLeadTextColour": "#eee8d5",
+        "tickerTextColour": "#002b36",
+        "tickerHighlightColour": "#002b36",
+        "tickerLeadColour": "#002b36",
+        "tickerBackgroundColour": "#eee8d5",
+        "tickerTitle": "CPM",
+        "tickerItems": [
+            {
+                "lead": "Lead1",
+                "text": "Lorem ipsum dolor sit amet",
+                "visibility": true
+            },
+            {
+                "lead": "Lead2",
+                "text": "consectetur adipiscing elit",
+                "visibility": true
+            }
+        ],
+        "tickerTransition": "none",
+        "tickerPosition": "0",
+        "tickerSpeed": "1",
+        "tickerSize": "20"
+    },
+    "settings": {
+        "chromaColour": "#00f900",
+        "fontFamily": "Linux Libertine G",
+        "lowerThirdTransition": "none",
+        "lowerThirdsDuration": "16000",
+        "lowerThirdsPosition": "6.2",
+        "lowerThirdNameColour": "#002b36",
+        "lowerThirdTitleColour": "#002b36",
+        "lowerThirdBackgroundColour": "#268bd2",
+        "lowerThirdSize": "4",
+        "timerTextColour": "#002b36",
+        "timerBackgroundColour": "#eee8d5",
+        "oscStatus": true,
+        "oscIP": "127.0.0.1",
+        "oscPort": "23021",
+        "timerPosition": "tM",
+        "timerVertical": "50",
+        "timerHorizontal": "50",
+        "timerSize": "5",
+        "timerTransition": "fade",
+        "timerTextBefore": "",
+        "logoPosition": "tR",
+        "logoSize": "5.1",
+        "logoTransition": "fade",
+        "timerValue": "15:45",
+        "timerType": "stopwatch",
+        "lowerThirdsSize": "3.3"
+    },
+    "logo": "file:C:\\Users\\ChristianPrior\\Pictures\\Weissenberg Signet.png",
+    "logoAlpha": "https://heretorecord.com/s/logo-alpha.png",
+    "message": {
+        "messageText": "Test",
+        "messageTextColour": "#002b36",
+        "messageBackgroundColour": "#eee8d5",
+        "messagePosition": "m",
+        "messageVertical": "40.5",
+        "messageHorizontal": "50",
+        "messageSize": "17.4",
+        "messageTransition": "fade"
+    },
+    "break": {
+        "id": "1kU845E1DgfqGgPkG2ShqqbM_I3TFLVBy7pT-pNwItZQ",
+        "changeoverDelay": "2000",
+        "backgroundURL": "http://heretorecord.com/s/background.jpg",
+        "transition": "fade",
+        "autoplay": true,
+        "comingUpText": "Coming Up",
+        "startingSoonText": "Starting..."
+    },
+    "score": {
+        "settings": {},
+        "teams": [
+            {
+                "teamName": "Alpha",
+                "teamColour": "#000000",
+                "teamScore": 0
+            },
+            {
+                "teamName": "Omega",
+                "teamColour": "#000000",
+                "teamScore": 0
+            }
+        ],
+        "size": "35.2"
+    },
+    "analytics": {
+        "analyticsShowModal": true,
+        "analyticsAccepted": false
+    },
+    "themes": [
+        {
+            "name": "cpm-app",
+            "label": "cpm-app",
+            "css": [
+                {
+                    "name": "lower_third_custom_css_name_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_name_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_background_left",
+                    "value": "background-color: #b58900;"
+                },
+                {
+                    "name": "lower_third_custom_css_background_right",
+                    "value": "background-color: #b58900;"
+                },
+                {
+                    "name": "ticker_custom_css_title_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_title_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_message",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_image",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_wrapper",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_team_1_name",
+                    "value": "background-color:  #2aa198;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_2_name",
+                    "value": "background-color:  #cb4b16;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_1_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                },
+                {
+                    "name": "score_custom_css_team_2_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                }
+            ]
+        },
+        {
+            "name": "cpm-biz",
+            "label": "cpm-biz",
+            "css": [
+                {
+                    "name": "lower_third_custom_css_name_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_name_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_background_left",
+                    "value": "background-color: #268bd2;"
+                },
+                {
+                    "name": "lower_third_custom_css_background_right",
+                    "value": "background-color: #268bd2;"
+                },
+                {
+                    "name": "ticker_custom_css_title_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_title_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_message",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_image",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_wrapper",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_team_1_name",
+                    "value": "background-color:  #2aa198;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_2_name",
+                    "value": "background-color:  #cb4b16;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_1_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                },
+                {
+                    "name": "score_custom_css_team_2_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                }
+            ]
+        },
+        {
+            "name": "cpm-dat",
+            "label": "cpm-dat",
+            "css": [
+                {
+                    "name": "lower_third_custom_css_name_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_name_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_background_left",
+                    "value": "background-color: #cb4b16;"
+                },
+                {
+                    "name": "lower_third_custom_css_background_right",
+                    "value": "background-color: #cb4b16;"
+                },
+                {
+                    "name": "ticker_custom_css_title_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_title_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_message",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_image",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_wrapper",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_team_1_name",
+                    "value": "background-color:  #2aa198;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_2_name",
+                    "value": "background-color:  #cb4b16;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_1_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                },
+                {
+                    "name": "score_custom_css_team_2_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                }
+            ]
+        },
+        {
+            "name": "cpm-tec",
+            "label": "cpm-tec",
+            "css": [
+                {
+                    "name": "lower_third_custom_css_name_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_name_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_left",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_title_right",
+                    "value": ""
+                },
+                {
+                    "name": "lower_third_custom_css_background_left",
+                    "value": "background-color: #859900;"
+                },
+                {
+                    "name": "lower_third_custom_css_background_right",
+                    "value": "background-color: #859900;"
+                },
+                {
+                    "name": "ticker_custom_css_title_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_title_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_lead_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_text",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_item_background",
+                    "value": ""
+                },
+                {
+                    "name": "ticker_custom_css_background",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_message",
+                    "value": ""
+                },
+                {
+                    "name": "timer_custom_css_background",
+                    "value": "background: transparent !important;"
+                },
+                {
+                    "name": "message_custom_css_text",
+                    "value": ""
+                },
+                {
+                    "name": "message_custom_css_background",
+                    "value": "background: transparent !important;"
+                },
+                {
+                    "name": "chat_author_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_text",
+                    "value": ""
+                },
+                {
+                    "name": "chat_comment_background",
+                    "value": ""
+                },
+                {
+                    "name": "chat_author_image",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_wrapper",
+                    "value": ""
+                },
+                {
+                    "name": "score_custom_css_team_1_name",
+                    "value": "background-color:  #2aa198;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_2_name",
+                    "value": "background-color:  #cb4b16;\ncolor: #eee8d5;"
+                },
+                {
+                    "name": "score_custom_css_team_1_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                },
+                {
+                    "name": "score_custom_css_team_2_score",
+                    "value": "background-color:  #eee8d5;\ncolor: #002b36;"
+                }
+            ]
+        }
+    ],
+    "themeOnStartup": "cpm-tec",
+    "chat": {
+        "api_key": "",
+        "channel_name": "",
+        "privacy": true,
+        "transition": "wipe"
+    },
+    "image": {
+        "transition": "fade"
+    },
+    "timer": {
+        "display": {
+            "hours": true,
+            "minutes": true,
+            "seconds": true,
+            "fractions": false
+        }
+    }
+}
