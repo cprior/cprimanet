@@ -1,0 +1,84 @@
+{
+	"sdk":1,
+	"version":1,
+	"name":"TP Windows Essentials",
+	"id":"tpwe_0001",
+	"configuration" : {
+		"colorDark" : "#225834",
+		"colorLight" : "#45b168"
+	},
+	"categories": [
+		{
+			"id":"TPWinEss",
+			"name":"TP Windows Essentials",
+			"imagepath":"%TP_PLUGIN_FOLDER%tpwe\\tpwe.png",
+			"actions": [
+				{
+					"id":"focusapp",
+					"prefix":"Plugin",
+					"name":"Application Focus",
+					"description":"With this action you can focus the app you choose.",
+					"type":"execute",
+					"tryInline":true,
+					"format":"Type the application you want to focus, like: notepad {$appfocus$}",
+					"execution_cmd":"powershell -file \"%TP_PLUGIN_FOLDER%tpwe\\getfocus.ps1\" {$appfocus$}",
+					"data": [
+						{
+							"id":"appfocus",
+							"type":"text",
+							"label":"Application name",
+						},
+								]
+							
+				},
+				{
+					"id":"closapp",
+					"prefix":"Plugin",
+					"name":"Application Close",
+					"description":"With this action you can close an App. Wildcards accepted, like: photosho*",
+					"type":"execute",
+					"tryInline":true,
+					"format":"Type the application you want to close, like: photoshop* {$appclose$}",
+					"execution_cmd":"taskkill /IM {$appclose$}",
+					"data": [
+						{
+							"id":"appclose",
+							"type":"text",
+							"label":"Application name",
+						},
+								]
+							
+				},
+				{
+					"id":"admintools",
+					"prefix":"Open",
+					"name":"Windows Administrative Tools",
+					"type":"execute",
+					"execution_cmd":"control admintools",
+				},
+				{
+					"id":"windowsalarm",
+					"prefix":"Open",
+					"name":"Windows Alarm",
+					"type":"execute",
+					"execution_cmd":"explorer.exe shell:Appsfolder\\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App",
+				},	
+				{
+					"id":"devicesandprinters",
+					"prefix":"Open",
+					"name":"Windows Devices and Printers",
+					"type":"execute",
+					"execution_cmd":"control /name Microsoft.DevicesAndPrinters",
+				},			
+				{
+					"id":"soundsettings",
+					"prefix":"Open",
+					"name":"Windows Sound Settings",
+					"type":"execute",
+					"execution_cmd":"control mmsys.cpl sounds",
+				},
+		
+								],
+		}
+							]
+}
