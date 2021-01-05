@@ -1,0 +1,11 @@
+topic,description
+motivation,"reference christmas projection mapping, special day for wife (int'l women's day already too bright)"
+prerequisites,"projector, software, visualizations"
+problem A,how to animate heart
+solution A,fragment shader
+problem B,how to project
+solution B,MadMapper in MiniMad
+problem C,how to synchronize
+solution C,Ableton Live
+wrap-up,
+credits,
